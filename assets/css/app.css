@@ -1,0 +1,16 @@
+header {
+    background-color: #014F99;
+    height: 50px; 
+    margin-bottom: 30px;
+ }
+
+ header .cabecalho {
+    width: 992px; 
+    margin: 0px auto;
+ }
+
+ header .content {
+    color: #FFF;
+    font-size: 22px;
+    font-weight: normal;
+ }
