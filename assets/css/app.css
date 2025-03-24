@@ -14,3 +14,17 @@ header {
     font-size: 22px;
     font-weight: normal;
  }
+
+ /* CONTEUDO: Menu Lateral */
+
+ #projeto {
+   box-shadow: none;
+   border-color: #E7E9E9;
+   background-color: #F5F7F7;
+ }
+
+ #projeto h2 {
+   font-weight: 700;
+   font-size: 16px;
+   text-transform: uppercase;
+ }
