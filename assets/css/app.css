@@ -1,3 +1,5 @@
+/* CONTEUDO: Cabecalho da pagina */
+
 header {
     background-color: #014F99;
     height: 50px; 
@@ -15,7 +17,7 @@ header {
     font-weight: normal;
  }
 
- /* CONTEUDO: Menu Lateral */
+ /* CONTEUDO: Projetos */
 
  #projeto {
    box-shadow: none;
@@ -28,3 +30,30 @@ header {
    font-size: 16px;
    text-transform: uppercase;
  }
+
+ #projeto .item::before {
+  content: none;
+ }
+
+/* CONTEUDO: Persona */
+
+#persona {
+  background: url(../img/persona_background.png);
+  height: 326px;
+  padding-top: 200px;
+}
+
+#persona_panel {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-top: 1px solid #FFF;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 126px;
+}
+
+
+#main_content {
+  width: 992px;
+  margin: 0px auto;
+}
+
