@@ -51,6 +51,33 @@ header {
   height: 126px;
 }
 
+#persona_panel .image {
+  width: 110px;
+}
+
+#persona_panel .image img {
+  border: 3px solid #FFF;
+  width: 100px;
+  height: 100px;
+}
+
+#persona_panel .content {
+  padding-left: 0px;
+}
+
+#persona_panel .content h3 {
+  margin-top: 10px;
+}
+
+#persona_panel .content h3, #persona_panel .content p {
+  color: #FFF;
+}
+
+#persona_panel .extra {
+  margin: 0px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
 
 #main_content {
   width: 992px;
