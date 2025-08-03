@@ -1,7 +1,7 @@
 /* CONTEUDO: Cabecalho da pagina */
 
 header {
-    background-color: #014F99;
+    background-color: #2cb638;
     height: 50px; 
     margin-bottom: 30px;
  }
@@ -37,22 +37,19 @@ header {
 
 /* CONTEUDO: Persona */
 
-#persona {
-  background: url(../img/persona_background.png);
-  height: 326px;
-  padding-top: 200px;
-}
-
-#persona_panel {
-  background-color: rgba(0, 0, 0, 0.4);
-  border-top: 1px solid #FFF;
-  padding-top: 10px;
-  padding-left: 10px;
-  height: 126px;
-}
-
-#persona_panel .image {
-  width: 110px;
+/* Círculo de progresso */
+.progress-circle {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid #4fc3f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 25px;
 }
 
 #persona_panel .image img {
@@ -83,7 +80,7 @@ header {
 #profile .content {
   padding: 20px 0px;
   border-top: none;
-  background-color: #014F99;
+  background-color: #2cb638;
   color: #FFF;
   text-align: center;
 }
@@ -99,6 +96,7 @@ header {
 #projetos_chart .content {
   padding-left: 0.5em;
 }
+
 
 /* CONTEÚDO: Tarefas */
 
@@ -141,34 +139,20 @@ header {
   color: #004E99 !important;
 }
 
+.stars i {
+    color: #FFD700;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+
 /* CONTEUDO: Rodape da pagina */
 
-footer {
-  margin-top: 40px;
-  background-color: #424242;
-  padding-bottom: 40px;
-}
-
 #rodape {
-  width: 992px;
-  margin: 0px auto;
-  color: #9D9D9D;
-  padding-top: 30px;
-}
-
-#rodape h5 {
-  padding-left: 20px;
-  font-weight: 700;
+  padding: 15px;
+  background-color: #2c3e50; /* ou outra cor de fundo */
+  color: white;              /* cor do texto */
   font-size: 14px;
-  text-transform: uppercase;
-}
-
-#rodape h5 ~ div {
-  padding-left: 40px;
-}
-
-#main_content {
-  width: 992px;
-  margin: 0px auto;
+  text-align: center;
 }
 

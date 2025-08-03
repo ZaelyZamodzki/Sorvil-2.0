@@ -3,10 +3,12 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Projeto Rede Social 2A Tec</title>
+    <title>Sorvil</title>
 
     <link rel="stylesheet" type="text/css" href="vendor/semantic/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     
@@ -15,7 +17,7 @@
             <h1 class="ui header">
                 <img class="ui image medium" src="assets/img/logo_inventum_01.png">
                 <div class="content">
-                    Projeto Rede Social 2º Ano Téc | <small>Portal de ideias</small> 
+                    Sorvil | <small>Resenha</small> 
                 </div>
             </h1>
         </div>
@@ -25,35 +27,34 @@
         <div id="sidemenu" class="four wide column">
             <div id="profile" class="ui card">
                 <div class="content">
-                    <img class="ui circular image" src="assets/img/profile_avatar.png" alt="">
-                    <h4>Fulano de tal</h4>
+                    <img class="ui circular image" src="assets/img/Lalala04.jpg" alt="">
+                    <h4>Lalala04</h4>
                 </div>
                 <div class="extra">
                     <div class="ui vertical test menu">
-                        <a class="item active" href=""> Meus Projetos </a>
-                        <a class="item" href=""> Minhas Tarefas </a>
-                        <a class="item" href=""> Meu Perfil </a>
-                        <a class="item" href=""> Sair </a>
+                        <a class="item active" href=""> Meus Livros </a>
+                        <a class="item active" href=""> Minhas Resenhas </a>
+                        <a class="item active" href=""> Meu Perfil </a>
+                        <a class="item active" href=""> Sair </a>
                     </div>
                 </div>
             </div>
 
             <div class="ui card">
                 <div class="content" id="projetos_chart">
-                    <h2 class="header"> Projetos </h2>
+                    <h2 class="header"> Estante </h2>
                     <div class="ui clearing divider"></div>
                     <div class="description">
                         <div class="ui items">
                             <div class="item">
                                 <div class="ui mini image">
-                                    <img src="assets/img/avatar_mini_02.png" title="Fulano de tal" alt="">
+                                    <img src="assets/img/lugar-errado-hora-errada.jpg" title="Fulano de tal" alt="">
                                 </div>
                                 <div class="middle aligned content">
-                                    <h5>Projeto #1</h5>
+                                    <h5>Lugar Errado Hora Errada - Gillian McAllister</h5>
                                     <div class="meta">
-                                        <div class="ui tiny prog-75 progress" data-value="3" data-total="100">
-                                            <div class="bar">
-                                                <div class="progress"></div>
+                                        <div class="ui tiny progress warning active">
+                                            <div class="bar" style="width: 100%;">
                                             </div>
                                         </div>
                                     </div>
@@ -61,14 +62,27 @@
                             </div>
                             <div class="item">
                                 <div class="ui mini image">
-                                    <img src="assets/img/avatar_mini_03.png" title="Membro da Equipe 03">
+                                    <img src="assets/img/melhor-do-que-nos-filmes.jpg" title="Membro da Equipe 03">
                                 </div>
                                 <div class="middle aligned content">
-                                    <h5>Projeto #2</h5>
+                                    <h5>Melhor do que nos filmes - Lynn Painter</h5>
                                     <div class="meta">
-                                        <div class="ui tiny progress success" data-value="3" data-total="100">
-                                            <div class="bar">
-                                                <div class="progress"></div>
+                                        <div class="ui tiny progress warning active">
+                                            <div class="bar" style="width: 100%;">
+                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="ui mini image">
+                                    <img src="assets/img/se-ele-estivesse-comigo.jpg" title="Carlos da Cunha">
+                                </div>
+                                <div class="middle aligned content">
+                                    <h5>Se ele estivesse comigo - Laura Nowlin</h5>
+                                    <div class="meta">
+                                        <div class="ui tiny progress warning active">
+                                            <div class="bar" style="width: 60%;">
                                             </div>
                                         </div>
                                     </div>
@@ -76,29 +90,13 @@
                             </div>
                             <div class="item">
                                 <div class="ui mini image">
-                                    <img src="assets/img/avatar_mini_01.png" title="Carlos da Cunha">
+                                    <img src="assets/img/como-eu-era-antes.jpg" title="Membro Equipe 04">
                                 </div>
                                 <div class="middle aligned content">
-                                    <h5>Projeto #3</h5>
+                                    <h5>Como eu era antes - Amber Smith</h5>
                                     <div class="meta">
-                                        <div class="ui tiny progress warning" data-value="3" data-total="100">
-                                            <div class="bar">
-                                                <div class="progress"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="ui mini image">
-                                    <img src="assets/img/avatar_mini_04.png" title="Membro Equipe 04">
-                                </div>
-                                <div class="middle aligned content">
-                                    <h5>Projeto #4</h5>
-                                    <div class="meta">
-                                        <div class="ui tiny progress error" data-value="3" data-total="100">
-                                            <div class="bar">
-                                                <div class="progress"></div>
+                                        <div class="ui tiny progress warning active">
+                                            <div class="bar" style="width: 30%;">                              
                                             </div>
                                         </div>
                                     </div>
@@ -113,56 +111,34 @@
         <div class="twelve wide stretched column">
             <div class="ui segment">
                 <div id="projeto" class="ui menu">
-                    <h2 class="item"><i class="home icon"></i> Projeto #1</h2>
+                    <h2 class="item"><i class="book icon"></i> Resenha </h2>
                 </div>
     
-                <div id="persona" class="ui items">
-                    <div id="persona_panel" class="item">
-                        <div class="image">
-                            <img class="ui avatar image" src="assets/img/persona_avatar.png">
-                        </div>
-
-                        <div class="middle aligned content">
-                            <h3 class="header"> Nome da Persona </h3>
-                            <div class="description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                            </div>
-                            <div class="extra">
-                                <a href=""><button class="ui tiny green button right floated">Saiba Mais</button></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h1 class="ui horizontal divider">TASK</h1>
-
                 <div class="task ui divided items">
                     <div class="item">
-                        <div class="image task_chart">
-                            <div class="progress-circle over50 p75">
-                                <span>75%</span>
-                                <div class="left-half-clipper">
-                                    <div class="first50-bar"></div>
-                                    <div class="value-bar"></div>
-                                </div>
-                            </div>
+                        <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                         </div>
+                            <div class="image">
+                               <img class="ui image" src="assets/img/lugar-errado-hora-errada.jpg" style="width: 120px;  object-fit: cover;">
+                            </div>
                         <div class="content">
-                            <h4 class="header">Criar o perfil da Persona</h4>
+                            <h4 class="header">Lugar Errado Hora Errada</h4>
                             <div class="meta">
-                                <span class="responsavel">Responsável:</span>
-                                <span class="nome">Carlos da Cunha</span>
-                                <span class="email small">&lt;carlos.cunha@escola.pr.gov.br&gt;</carlos.cunha></span>
+                                <span><small> Escrevi minha resenha (27/07/2025)</small></span>
                             </div>
                             <div class="description">
-                                <p>Lorem ipsum suspendisse luctus class praesent enim nulla sem inceptos sollicitudin accumsan tincidunt, fames et fermentum cras ut mollis proin interdum purus feugiat. tristique nisl consectetur non magna volutpat est, sagittis velit gravida blandit justo nisl, risus enim cursus venenatis conubia. velit accumsan interdum suscipit aliquet suscipit magna fusce vehicula adipiscing sapien velit, curabitur velit curae sem malesuada id magna venenatis dapibus quisque. tincidunt fames nunc justo cursus pulvinar lectus et, quam velit dapibus condimentum eu semper dictumst, mattis porttitor nullam nec condimentum vulputate. etiam platea lorem condimentum ultrices duis interdum hac velit nostra donec sit pharetra ullamcorper inceptos amet, sagittis arcu auctor tortor maecenas faucibus at donec mauris mollis vel pharetra tincidunt.</p>
-                                <p>Libero donec platea porttitor dapibus placerat amet tincidunt orci curabitur, suspendisse aenean vestibulum curae libero ante ultrices consequat, ultricies quisque duis laoreet nisl porta hendrerit augue. sem pulvinar quam est condimentum turpis dolor curabitur elementum, in donec lacus varius turpis quis ut, amet maecenas bibendum vehicula neque integer metus. augue quisque condimentum ad curabitur suspendisse a habitasse morbi, amet mi sed inceptos felis aliquam dapibus, hendrerit duis velit senectus dolor integer lacinia. enim sagittis lobortis blandit duis sociosqu commodo varius lorem egestas pulvinar placerat diam nec et, conubia netus pellentesque porttitor dolor dictum scelerisque ultricies semper phasellus quis nisi.</p>
+                                <p><strong>Entre o amor, o tempo e o desespero.</strong></p>
+                                <p>Essa foi a primeira vez que li um thriller, e não poderia ter começado melhor. Confesso que demorei um pouco para me acostumar com esse gênero por ser novo, mas quando peguei o jeito fiquei louca para saber por quê?? Por que o Todd fez aquilo?? Quem são os envolvidos?? Por que ela volta no tempo???</p>
+                                <p>A Jen é uma mãe. Uma mãe de verdade. Ela lutou pelo filho, queria proteger ele a todo custo e conseguiu. Por mais que ela visse como ele estava distante e seco com ela, não foi motivo para ela desistir. A Jen foi persistente, mesmo quando pensava que tudo o que aconteceu foi por culpa dela, por ela ter sido uma mãe ruim. Sentindo que a cada passo estava decepcionando ele. E esse era o maior medo dela.</p>
+                                <p>Me senti estúpida demais por não ter percebido o que estava na minha cara o tempo todo. Sempre me perguntava por que o Ryan tinha um capítulo só dele, qual era o papel dele? E foi incrível!!!! Como as peças foram se encaixando, ele contando o lado dele, como ele se sentia vulnerável, um mentiroso e desesperado. Ele fez de tudo para proteger o amor da vida dele. Mesmo que com isso ele tivesse que deixar sua vida para trás.</p>
+                                <p>Foi uma experiência incrível. E já pude descobrir que seria uma agente terrível.</p>
                             </div>
                             <div class="extra">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_01.png" title="Carlos da Cunha">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_02.png" title="Fulano de tal">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_03.png" title="Membro da Equipe 03">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_04.png" title="Membro Equipe 04">
                                 <div class="ui labeled right floated button">
                                     <div class="ui button">
                                         <i class="comments icon"></i> Comentário
@@ -176,31 +152,25 @@
                 
                 <div class="task ui divided items">
                     <div class="item">
-                        <div class="image task_chart">
-                            <div class="progress-circle over50 p50">
-                                <span>50%</span>
-                                <div class="left-half-clipper">
-                                    <div class="first50-bar"></div>
-                                    <div class="value-bar"></div>
-                                </div>
-                            </div>
+                        <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                         </div>
-                        <div class="content">
-                            <h4 class="header">Montagem do Canvas</h4>
+                        <div class="image task_chart">
+                            <img class="ui mini image" src="assets/img/melhor-do-que-nos-filmes.jpg" style="width: 150px; height: auto;">
+                        </div>
+                       <div class="content">
+                            <h4 class="header">Melhor do que nos filmes</h4>
                             <div class="meta">
-                                <span class="responsavel">Responsável:</span>
-                                <span class="nome">Fulano de Tal</span>
-                                <span class="email small">&lt;fulano.de.tal@escola.pr.gov.br&gt;</span>
+                                <span><small> Escrevi minha resenha (06/05/2023)</small></span>
                             </div>
                             <div class="description">
-                                <p>Maecenas pellentesque erat magna, id dictum leo eleifend a. Donec dictum erat vel risus tincidunt, convallis hendrerit velit eleifend. In velit arcu, mollis quis eros id, viverra sagittis felis. Vivamus tempus eu arcu ac hendrerit. Phasellus imperdiet, ante id interdum gravida, nunc libero convallis diam, in vestibulum urna quam vitae massa. Donec augue elit, accumsan ac diam id, pellentesque volutpat augue.</p>
-                                <p>Nam et tortor vel arcu egestas fermentum. Aliquam accumsan sit amet neque ut interdum. Proin id lobortis eros. Sed sed nisl augue. In vulputate, lectus ut porta viverra, lectus eros feugiat ante, ut porttitor tellus libero gravida eros. Nulla vel faucibus odio. Proin id purus in lorem dignissim fringilla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <p>Eu comecei a leitura na expectativa de que fosse exatamente as comédias românticas super clichês que eu amo, e foi exatamente o que eu recebi. Com aqueles plots clássicos de enemy to lovers, onde a mocinha se apaixona pelo vizinho insuportável que conhece desde a infância. Liz, a protagonista, é uma adolescente no ultimo ano do ensino medio, que se depara com a volta de um amor de infancia. Imediatamrnte ela bota um plano digno de filme em ação e pede ajuda do seu maior inimigo, que mora na casa ao lado, para conquistar o rapaz. Alem do romance, o livro passa pelo luto de Liz, que perdeu a mãe e agora sente sua falta mais do que nunca, já que não pode fazer as tradições do último ano do ensino médio com ela. Me agrada muito o fato de que a protagonista é "diferente", mas isso não é um problema pra ela, ela sabe que é bonita e gosta disso, fiquei muito feliz ao ver que ela não precisou mudar seu cabelo cacheado nem o jeito de se vestir pra dar tudo certo. Amei que o livro tem uma trilha sonora pra acompanhar a leitura e o jeito em que cada capítulo começa com um diálogo fofo de comédias românticas. Se você quer uma leitura leve, fofa, cheia de momentos românticos e engraçados , mas que tambem emociona, Melhor do que nos filmes é o livro certo pra você.</p>
                             </div>
                             <div class="extra">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_02.png" title="Fulano de Tal">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_01.png" title="Carlos da Cunha">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_03.png" title="Membro da Equipe 03">
-                                <img class="ui avatar image" src="assets/img/avatar_mini_04.png" title="Membro da Equipe 04">
                                 <div class="ui labeled right floated button" tabindex="0">
                                     <div class="ui blue button">
                                         <i class="comments"></i> Comentários 
@@ -215,15 +185,12 @@
                             <div class="ui comments">
                                 <div class="comment">
                                     <a class="avatar">
-                                        <img src="/assets/img/avatar_mini_01.png">
+                                        <img src="/assets/img/Lalala04.jpg">
                                     </a>
                                     <div class="content">
-                                        <a class="author">Carlos da Cunha</a>
-                                        <div class="metadata">
-                                            <span class="data">11/04/2025 ás 11:58</span>
-                                        </div>
+                                        <a class="author">Lalala04</a>
                                         <div class="texto">
-                                            Aqui é um comentário do Carlos da Cunha
+                                             <small>comente</small>
                                         </div>
                                     </div>
                                 </div>
@@ -245,43 +212,12 @@
     </div>
 
     <footer>
-        <div class="ui four column divided grid" id="rodape">
-            <div class="row">
-                <div class="column">
-                    <h5>Equipe #1</h5>
-                    <div class="item">Membro 1 da Equipe 1</div>
-                    <div class="item">Membro 2 da Equipe 1</div>
-                    <div class="item">Membro 3 da Equipe 1</div>
-                    <div class="item">Membro 4 da Equipe 1</div>
-                    <div class="item">Membro 5 da Equipe 1</div>
-                </div>
-                <div class="column">
-                    <h5>Equipe #2</h5>
-                    <div class="item">Membro 1 da Equipe 2</div>
-                    <div class="item">Membro 2 da Equipe 2</div>
-                    <div class="item">Membro 3 da Equipe 2</div>
-                    <div class="item">Membro 4 da Equipe 2</div>
-                    <div class="item">Membro 5 da Equipe 2</div>
-                </div>
-                <div class="column">
-                    <h5>Equipe #3</h5>
-                    <div class="item">Membro 1 da Equipe 3</div>
-                    <div class="item">Membro 2 da Equipe 3</div>
-                    <div class="item">Membro 3 da Equipe 3</div>
-                    <div class="item">Membro 4 da Equipe 3</div>
-                    <div class="item">Membro 5 da Equipe 3</div>
-                </div>
-                <div class="column">
-                    <h5>Equipe #4</h5>
-                    <div class="item">Membro 1 da Equipe 4</div>
-                    <div class="item">Membro 2 da Equipe 4</div>
-                    <div class="item">Membro 3 da Equipe 4</div>
-                    <div class="item">Membro 4 da Equipe 4</div>
-                    <div class="item">Membro 5 da Equipe 4</div>
-                </div>
-            </div>
-        </div>
-    </footer>    
+  <div class="ui grid">
+    <div class="sixteen wide column center aligned" id="rodape">
+      Livros | Leitores | Meta de Leitura
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
