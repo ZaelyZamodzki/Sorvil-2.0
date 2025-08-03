@@ -19,19 +19,19 @@ header {
 
  /* CONTEUDO: Projetos */ 
 
- #projeto {
+ #estante_livros {
    box-shadow: none;
    border-color: #E7E9E9;
    background-color: #F5F7F7;
  }
 
- #projeto h2 {
+ #estante_livros h2 {
    font-weight: 700;
    font-size: 16px;
    text-transform: uppercase;
  }
 
- #projeto .item::before {
+ #estante_livros .item::before {
   content: none;
  }
 
@@ -48,37 +48,37 @@ header {
   border: 3px solid #FFF;
 }
 
-#estante_livros .item, #estante_livros h5 {
+#resenha_chart .item, #estante_livros h5 {
   margin: 0px;
 }
 
-#estante_livros .content {
+#resenha_chart .content {
   padding-left: 0.5em;
 }
 
 
 /* CONTEÚDO: Tarefas */
 
-.task {
+.resenha {
   border: 1px solid #E7E9E9;
   background-color: #FFF;
   margin-top: 30px;
   padding: 20px;
 }
 
-.task .header {
+.resenha .header {
   font-size: 32px;
 }
 
-.task .description {
+.resenha .description {
   padding: 15px 0px;
 }
 
-.task .description p {
+.resenha .description p {
   font-size: 16px;
 }
 
-.task div.comments {
+.resenha div.comments {
   max-width: 100%;
   border: 1px solid #E7E9E9;
   background-color: #F3F3F3;
@@ -86,17 +86,18 @@ header {
   margin-top: 20px;
 }
 
-.task .form {
+.resenha .form {
   margin-top: 0px;
 }
 
-.task .comments .comment {
+.resenha .comments .comment {
   margin-bottom: 20px;
 }
 
-.task .comment .author {
+.resenha .comment .author {
   color: #004E99;
 }
+
 
 .stars i {
     color: #FFD700;
