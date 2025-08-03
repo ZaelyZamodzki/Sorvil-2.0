@@ -35,46 +35,6 @@ header {
   content: none;
  }
 
-
-/* Círculo de progresso */
-.progress-circle {
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
-  border: 5px solid #4fc3f7;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: #333;
-  font-size: 16px;
-  margin-bottom: 25px;
-}
-
-#persona_panel .image img {
-  border: 3px solid #FFF;
-  width: 100px;
-  height: 100px;
-}
-
-#persona_panel .content {
-  padding-left: 0px;
-}
-
-#persona_panel .content h3 {
-  margin-top: 10px;
-}
-
-#persona_panel .content h3, #persona_panel .content p {
-  color: #FFF;
-}
-
-#persona_panel .extra {
-  margin: 0px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
 /* CONTEÚDO: Menu Lateral */
 #profile .content {
   padding: 20px 0px;
@@ -88,11 +48,11 @@ header {
   border: 3px solid #FFF;
 }
 
-#projetos_chart .item, #projetos_chart h5 {
+#estante_livros .item, #estante_livros h5 {
   margin: 0px;
 }
 
-#projetos_chart .content {
+#estante_livros .content {
   padding-left: 0.5em;
 }
 
@@ -135,7 +95,7 @@ header {
 }
 
 .task .comment .author {
-  color: #004E99 !important;
+  color: #004E99;
 }
 
 .stars i {
@@ -149,8 +109,8 @@ header {
 
 #rodape {
   padding: 15px;
-  background-color: #2c3e50; /* ou outra cor de fundo */
-  color: white;              /* cor do texto */
+  background-color: #2c3e50;
+  color: white;
   font-size: 14px;
   text-align: center;
 }
